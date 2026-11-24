@@ -1,0 +1,52 @@
+# Private datasets and tabular outputs
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.npy
+*.npz
+/data/
+/data2/
+/daily_data_pkl/
+/daily_data_pkl_norm/
+/choose_pkl_norm/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+/checkpoints/
+/models/
+
+# Generated results and logs
+/outputs/
+/results/
+/logs/
+/runs/
+*.log
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
